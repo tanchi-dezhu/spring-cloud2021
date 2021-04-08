@@ -62,8 +62,12 @@ public class PaymentController {
                         + element.getUri());
             }
         }
-
         return this.discoveryClient;
+    }
+
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB() {
+        return serverPort;
     }
 
 }

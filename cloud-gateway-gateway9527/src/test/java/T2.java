@@ -1,4 +1,4 @@
-import java.time.ZonedDateTime;
+
 
 /**
  * @author jun
@@ -6,7 +6,9 @@ import java.time.ZonedDateTime;
  */
 public class T2 {
     public static void main(String[] args) {
-        ZonedDateTime zonedDateTime = ZonedDateTime.now();
-        System.out.println(zonedDateTime);
+        int[] a = new int[5];
+        boolean[] b = new boolean[5];
+        System.out.println(a[4]);
+        System.out.println(b[4]);
     }
 }

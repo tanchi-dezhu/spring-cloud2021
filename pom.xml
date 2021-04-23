@@ -26,6 +26,7 @@
         <module>cloud-config-center-3344</module>
         <module>cloud-config-client-3355</module>
         <module>cloud-config-client-3366</module>
+        <module>java8-stream</module>
     </modules>
     <packaging>pom</packaging>
 
